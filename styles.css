@@ -58,6 +58,12 @@ nav a {
     padding: 0;
     float: right;
     width: 50%;
+    display: grid;
+    grid-template-rows: 100px 100px;
+    grid-template-columns: 100px 100px;
+    grid-column-gap: 1px;
+    grid-row-gap: 1px;
+
 }
 
 .feature {
@@ -66,12 +72,12 @@ nav a {
 
 article{
     float: left;
-    width: 50%;
+    width: 75%;
     
 }
 
-aside{
+.photos{
     float: right;
-    width: 50%;
+    width: 25%;
     
 }
